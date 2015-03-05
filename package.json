@@ -1,0 +1,29 @@
+{
+  "name": "foreman-gui",
+  "version": "1.0.0",
+  "description": "Console based GUI that builds you a Procfile usable with any foreman implementation",
+  "main": "src/index.js",
+  "homepage": "https://github.com/herkyl/foreman-gui",
+  "keywords": [
+    "foreman",
+    "Procfile"
+  ],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "bin": {
+    "fmg": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:herkyl/foreman-gui.git"
+  },
+  "author": "Serge Herkül (https://twitter.com/_sergeh)",
+  "license": "ISC",
+  "preferGlobal": true,
+  "dependencies": {
+    "async": "^0.9.0",
+    "colors": "^1.0.3",
+    "inquirer": "^0.8.0"
+  }
+}
