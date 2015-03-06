@@ -22,6 +22,14 @@ Runs Foreman-gui with a custom target file.
 
     $ fmg custom_procfile_location
 
+After you have generated the Procfile, start foreman normally.
+
+    $ foreman
+
+Or using node-foreman
+
+    $ nf
+
 ### FullProcfile
 
 The `FullProcfile` format is a simple `key : command` format:
