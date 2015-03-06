@@ -14,6 +14,9 @@
   "bin": {
     "fmg": "src/index.js"
   },
+  "engines": {
+    "node": ">=0.8"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:herkyl/foreman-gui.git"

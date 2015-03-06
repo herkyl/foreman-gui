@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var inquirer = require("inquirer");
 var colors = require('colors/safe');
 var async = require('async');
