@@ -1,6 +1,6 @@
 {
   "name": "foreman-gui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Console based GUI that builds you a Procfile usable with any foreman implementation",
   "main": "src/index.js",
   "homepage": "https://github.com/herkyl/foreman-gui",
@@ -25,7 +25,6 @@
   "license": "ISC",
   "preferGlobal": true,
   "dependencies": {
-    "async": "^0.9.0",
     "colors": "^1.0.3",
     "inquirer": "^0.8.0"
   }
