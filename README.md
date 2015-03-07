@@ -1,6 +1,6 @@
 # Foreman-Gui
 
-Foreman-Gui is a nifty command line utility for generating Procfiles. Foreman-Gui works with all Foreman implementations.
+Foreman-Gui is a nifty command line utility for choosing which Foreman services to run. Foreman-Gui works by generating the Procfile based on a template Procfile (usually called FullProcfile). Foreman-Gui works with all Foreman implementations.
 
 ![Foreman-Gui](https://raw.github.com/herkyl/foreman-gui/master/images/fmg.png)
 
